@@ -3,7 +3,7 @@ namespace Hidro\Disk;
 
 class Wrapper
 {
-    public static $overridenProtocol = 'data';
+    public static $overridenProtocol = 'file';
     public static $isRegistered = false;
     public static $adapterClass = 'Hidro\Disk\Adapters\NullOverride';
     

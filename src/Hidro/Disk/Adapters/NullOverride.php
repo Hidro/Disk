@@ -12,6 +12,11 @@ class NullOverride
     {
         return array();
     }
+    
+    function url_stat()
+    {
+        return array();
+    }
 
     function stream_read($count)
     {
